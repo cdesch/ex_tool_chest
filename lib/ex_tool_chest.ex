@@ -3,19 +3,6 @@ defmodule ExToolChest do
   Documentation for `ExToolChest`.
   """
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> ExToolChest.hello()
-      :world
-
-  """
-  def hello do
-    :world
-  end
-
 
   @doc """
   Convert a pid to a string
@@ -43,10 +30,7 @@ defmodule ExToolChest do
 
   """
   def pid_to_list(pid) do
-    pid_inspection = "#{inspect pid}" # gives the string "#PID<0.105.0>"
-    pid_inspection
-      |> String.slice(5, 100)
-      |> String.trim(">")
+    pid_to_string(pid)
       |> String.split(".")
       |> Enum.map(fn x -> String.to_integer(x) end)
   end
@@ -61,10 +45,7 @@ defmodule ExToolChest do
 
   """
   def pid_to_tuple(pid) do
-    pid_inspection = "#{inspect pid}" # gives the string "#PID<0.105.0>"
-    pid_inspection
-      |> String.slice(5, 100)
-      |> String.trim(">")
+    pid_to_string(pid)
       |> String.split(".")
       |> Enum.map(fn x -> String.to_integer(x) end)
       |> List.to_tuple
