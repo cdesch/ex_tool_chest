@@ -1,11 +1,19 @@
 # ExToolChest
 
-**TODO: Add description**
+
+[![Module Version](https://img.shields.io/hexpm/v/ex_tool_chest.svg)](https://hex.pm/packages/ex_tool_chest)
+[![Hex Docs](https://img.shields.io/badge/hex-docs-lightgreen.svg)](https://hexdocs.pm/ex_tool_chest)
+[![Total Download](https://img.shields.io/hexpm/dt/ex_tool_chest.svg)](https://hex.pm/packages/libcluster)
+[![License](https://img.shields.io/hexpm/l/ex_tool_chest.svg)](https://github.com/cdesch/ex_tool_chest/blob/main/LICENSE)
+[![Last Updated](https://img.shields.io/github/last-commit/cdesch/ex_tool_chest.svg)](https://github.com/cdesch/ex_tool_chest/commits/master)
+
+This library provides general Elixir Utilities and Tools, such as `pid` conversion... and more to come.
+
+You can find supporting documentation [here](https://hexdocs.pm/ex_tool_chest).
+
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `ex_tool_chest` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
@@ -15,9 +23,6 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/ex_tool_chest](https://hexdocs.pm/ex_tool_chest).
 
 ## Release
 
