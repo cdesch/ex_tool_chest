@@ -16,7 +16,16 @@ defmodule ExToolChest do
     :world
   end
 
-  # ExToolChest.pid_to_string(self())
+
+  @doc """
+  Convert a pid to a string
+
+  ## Examples
+
+      iex> ExToolChest.pid_to_string(IEx.Helpers.pid(0, 1, 2))
+      "0.1.2"
+
+  """
   def pid_to_string(pid) do
     pid_inspection = "#{inspect pid}" # gives the string "#PID<0.105.0>"
     pid_inspection
@@ -24,7 +33,15 @@ defmodule ExToolChest do
       |> String.trim(">")
   end
 
-  # ExToolChest.pid_to_list(self())
+  @doc """
+  Convert a pid to a list
+
+  ## Examples
+
+      iex> ExToolChest.pid_to_list(IEx.Helpers.pid(0, 1, 2))
+      [0, 1, 2]
+
+  """
   def pid_to_list(pid) do
     pid_inspection = "#{inspect pid}" # gives the string "#PID<0.105.0>"
     pid_inspection
@@ -34,7 +51,15 @@ defmodule ExToolChest do
       |> Enum.map(fn x -> String.to_integer(x) end)
   end
 
-  #ExToolChest.pid_to_tuple(self())
+  @doc """
+  Convert a pid to a tuple
+
+  ## Examples
+
+      iex> ExToolChest.pid_to_tuple(IEx.Helpers.pid(0, 1, 2))
+      {0, 1, 2}
+
+  """
   def pid_to_tuple(pid) do
     pid_inspection = "#{inspect pid}" # gives the string "#PID<0.105.0>"
     pid_inspection
