@@ -1,6 +1,5 @@
 # ExToolChest
 
-
 [![Module Version](https://img.shields.io/hexpm/v/ex_tool_chest.svg)](https://hex.pm/packages/ex_tool_chest)
 [![Hex Docs](https://img.shields.io/badge/hex-docs-lightgreen.svg)](https://hexdocs.pm/ex_tool_chest)
 [![Total Download](https://img.shields.io/hexpm/dt/ex_tool_chest.svg)](https://hex.pm/packages/libcluster)
@@ -11,9 +10,7 @@ This library provides general Elixir Utilities and Tools, such as `pid` conversi
 
 You can find supporting documentation [here](https://hexdocs.pm/ex_tool_chest).
 
-
 ## Installation
-
 
 ```elixir
 def deps do
@@ -22,7 +19,6 @@ def deps do
   ]
 end
 ```
-
 
 ## Release
 
