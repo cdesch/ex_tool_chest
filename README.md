@@ -19,3 +19,8 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/ex_tool_chest](https://hexdocs.pm/ex_tool_chest).
 
+## Release
+
+Publish to hex.pm
+
+    mix hex.publish
